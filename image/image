@@ -1,1 +1,35 @@
-file:///C:/Users/User/Desktop/html%20test%20project/images/243873-scaled.jpg
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+ul {
+    list-style-type:  none; 
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    height: 50px;
+    background-color:black ;
+    line-height: 50px;
+}
+
+.nav-list li {
+display: inline-block;
+color: white;
+font-weight: bold;
+font-size: 14px;
+}
+
+.nav-list li:last-of-type {
+ font-size: 38px;
+ color: red;
+}
+/* nth-child */
+/* nth-of-type */
